@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1 class="company">Jamein</h1>
+            <a href="#"><button class="btn">Send Request</button></a>
+        </div>
+        <div>
+            <img src="https://pplx-res.cloudinary.com/image/upload/v1751720332/gpt4o_images/q1fd1jxzzor8s04562wj.png"
+                alt="logo" width="200" height="200" class="logo">
+            <ul class="links">
+                <li styple=""><a href="#Home">Features</a></li>
+                <li><a href="#Achievements">Achievements</a></li>
+                <li><a href="#Future Plans">Future Plans</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <img src="https://pplx-res.cloudinary.com/image/upload/v1751720458/gpt4o_images/un7niaotdk3ggoykvh4w.png"
+            alt="Photo" class="photo">
+        <h2 class="name">Aryan Prasad</h2>
+        <div class="text-changer">
+            <div class="text-changer">
+                <p class="p">I am a <span class="role">Designer</span></p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Features of Me</h2>
+        <ul class="op">
+            <li>Creative Designer</li>
+            <li>Innovative Thinker</li>
+            <li>Problem Solver</li>
+            <li>Team Player</li>
+            <li>Detail-Oriented</li>
+        </ul>
+
+    </section>
+
+    <section>
+        <h2>My Achievements </h2>
+        <ul class="op">
+            <li>Designed a successful product that increased user engagement by 30%</li>
+            <li>Led a team of designers to win a national design competition</li>
+            <li>Published articles in top design magazines</li>
+            <li>Conducted workshops on innovative design techniques</li>
+            <li>Received multiple awards for outstanding design work</li>
+        </ul>
+
+    </section>
+
+    <section>
+        <h2>My Future Plans</h2>
+        <p class="p1">To be the best designer ever!</p>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <p class="p">Feel free to reach out for any inquiries or collaborations.</p>
+        <ul class="contact">
+            <br>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit" class="btn_submit">Send Message</button>
+            </form>
+            <br>
+            <li>Email: <a href="mailto:aryanprasad@gmail.com">aryan prasad</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/aryan-nawaiz-123456789/">Aryan Prasad</a></li>
+            <li>GitHub: <a href="github.com/aryan-prasad>aryan-prasad" </a></li>
+            <li>Twitter: <a href="https://twitter.com/aryan-prasad">aryan-prasad</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 aryanprasad. All rights reserved.</p>
+        <p>Last updated: October 2024</p>
+        <p>Contact: <a href="mailto:aryanprasad@gmail.com"></a></p>
+        <p>Follow me on <a href="https://www.linkedin.com/in/kaif-prasad-123456789/">LinkedIn</a>, <a
+                href="https://github.com/aryanprasad">GitHub</a>, and <a
+                href="https://twitter.com/aryanprasad">Twitter</a>.</p>
+        <p>Feedback is welcome! Please reach out via email or social media.</p>
+        <p>Thank you for visiting my portfolio!</p>
+
+    </footer>
+</body>
+
+</html>
+
+
+<style>
+    * {
+        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    .header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        /* color: white; */
+
+    }
+
+    .btn {
+        background-color: #4CAF50;
+        color: white;
+
+        text-decoration: none;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid #fafffa;
+        transition: background-color 0.5s ease;
+    }
+
+
+    .btn:hover {
+
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #265428;
+        color: white;
+        border: 2px solid #fafffa;
+        transition: background-color 0.5s ease;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 2.5em;
+        color: #333;
+        background-color: #4CAF50;
+
+
+    }
+
+    header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    .links {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .links li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .links a {
+        color: rgb(69, 82, 22);
+        font-size: 0.9em;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .links a:hover {
+        text-decoration: underline;
+        color: #333;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        background-color: rgb(222, 225, 183);
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    }
+
+    h2 {
+        color: #4CAF50;
+        font-size: 2em;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        transition: background-color 0.3s ease;
+    }
+
+
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #333;
+        color: white;
+    }
+
+    .photo {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 80%;
+    }
+
+    .company {
+        text-align: center;
+        font-size: 2.5em;
+        color: #333;
+    }
+
+    .p {
+        font-size: 1.8em;
+        padding: 10px 0;
+        margin: 10px 0;
+        background-color: rgb(222, 225, 183);
+        /* border-radius:8px; */
+        text-align: center;
+        color: rgb(54, 110, 52);
+        padding: 10px;
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+    }
+
+    .p1 {
+        font-size: 1.8em;
+        padding: 10px 0;
+        margin: 10px 0;
+        background-color: rgb(222, 225, 183);
+        /* border-radius:8px; */
+        text-align: center;
+        color: rgb(54, 110, 52);
+        padding: 10px;
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+    }
+
+
+
+
+    .op {
+
+        list-style-type: none;
+        padding-left: 20px;
+        margin: 20px 0;
+        background-color: #ece8e8;
+        border-radius: 5px;
+        /* #f0f0f0 */
+        padding-top: 5px;
+        /* add this */
+        padding-bottom: 5px;
+        /* add this */
+        padding-right: 20px;
+        transition: background-color 0.3s ease;
+
+    }
+
+    .op li {
+        /*# list content */
+
+        margin: 5px 0;
+        padding: 5px;
+        background-color: #f2f0f0;
+        border-radius: 5px;
+        /* height: 45px;
+        width: 720px; */
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .contact {
+        list-style-type: none;
+        padding-left: 10px;
+        margin: 10px 0;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+    }
+
+    .name {
+        background-color: #f0f0f0;
+        text-align: center;
+        font-size: 2em;
+        color: #333;
+        margin-top: 10px;
+
+
+    }
+
+
+    #email {
+        width: 98%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    #name {
+        width: 98%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+
+        #message {
+            width: 98%;
+            height: 300px;
+            /* or any value you prefer */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    .btn_submit {
+        display: block;       /* Makes the button take full width of its container */
+    margin: 0 auto;       /* Centers the button horizontally */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: fit-content;   /* Shrinks button width to fit content */
+    }
+
+    .btn:hover {
+        background-color: #235625;
+        transform: scale(1.05);
+        transition: background-color 0.5s ease, transform 0.5s ease;
+    }
+
+    .btn_submit:hover {
+        background-color: #235625;
+        transform: scale(1.05);
+        font-weight: bold;
+        transition: background-color 0.5s ease, transform 0.5s ease;
+    }
+
+    .role {
+        font-weight: bold;
+        font-size: 1.8em;
+        text-align: center;
+        background-color: rgb(222, 225, 183);
+        color: rgb(54, 110, 52);
+
+
+
+        .role:hover {
+            color: #4CAF50;
+            transition: color 0.3s ease;
+        }
+
+        transition: opacity 0.3s ease;
+        /* opacity: 1; */
+        display: inline-block;
+        margin: 0 auto;
+        padding: 10px;
+        /* border-radius: 5px; */
+        /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); */
+        background-color: rgb(222, 225, 183);
+        /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+        transition: background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease;
+        cursor: pointer;
+
+
+
+        #name {}
+
+
+        #message {}
+    }
+</style>
+
+<script>
+    const roles = ["Designer", "Developer", "Problem Solver", "Product Manager"];
+    const roleSpan = document.querySelector(".role");
+    let index = 0;
+
+    function changeRole() {
+        roleSpan.style.opacity = 0; // fade out
+        setTimeout(() => {
+            roleSpan.textContent = roles[index];
+            roleSpan.style.opacity = 1; // fade in
+            index = (index + 1) % roles.length;
+        }, 300); // match fade duration
+    }
+
+    changeRole(); // initial call
+    setInterval(changeRole, 1200); // change every 2 seconds
+</script>
