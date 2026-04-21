@@ -64,7 +64,7 @@ A modern, interactive personal portfolio website built using HTML, CSS, and Java
 📬 Contact
 
 - 📧 Email: aryan.prasad1897@gmail.com
-- 💼 LinkedIn: 
+- 💼 LinkedIn: https://www.linkedin.com/in/aryan-prasad-b42b49221
 
 ---
 
