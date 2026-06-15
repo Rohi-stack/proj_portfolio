@@ -20,7 +20,7 @@ A modern, interactive personal portfolio website built using HTML, CSS, and Java
 - Handwriting SVG intro animation
 - Responsive layout for mobile & desktop
 
-🧑‍💻 Sections Included
+🧑‍💻 Sections Included 
 
 - Landing page with animated intro
 - About Me section with hover effects
